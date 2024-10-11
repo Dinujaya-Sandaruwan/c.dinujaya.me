@@ -4,7 +4,7 @@ slug: /printf-function-in-c
 title: "printf Function"
 ---
 
-# Mastering the printf Function: Bringing Text to Life in C
+# The printf Function in C: Bringing Text to Life Inside Terminal
 
 Let's dive into one of the most iconic functions in C programming—`printf`. If you’ve ever written code in Python before, you might be familiar with the `print()` function. Well, `printf` in C is somewhat like its C cousin, but with a few quirks of its own.
 
