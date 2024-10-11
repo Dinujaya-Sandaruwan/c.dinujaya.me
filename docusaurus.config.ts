@@ -3,27 +3,20 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "My Site",
+  title: "C Documentation",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.png",
 
-  // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: "https://c.dinujaya.me",
+
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Dinujaya Development",
+  projectName: "C Documentation",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -36,10 +29,9 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/Dinujaya-Sandaruwan/c.dinujaya.me/tree/reader-feedbacks/",
         },
         blog: false,
         // blog: {
@@ -65,24 +57,21 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "Lang Documentation",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Site Logo",
+        src: "img/logo.png",
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
+          href: "http://dinujaya.me/",
+          label: "Meet The Developer",
+          position: "right",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/Dinujaya-Sandaruwan/c.dinujaya.me",
           label: "GitHub",
           position: "right",
         },
@@ -92,46 +81,62 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Other Recources",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "w3schools.com",
+              href: "https://www.w3schools.com/c/",
+            },
+            {
+              label: "devdocs.io",
+              href: "https://devdocs.io/c/",
+            },
+            {
+              label: "cppreference.com",
+              href: "https://en.cppreference.com/w/c/language",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Connect with Dinujaya",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Portfolio Website",
+              href: "http://dinujaya.me/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Github Profile",
+              href: "https://github.com/Dinujaya-Sandaruwan",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "LinkedIn Profile",
+              href: "https://www.linkedin.com/feed/",
             },
           ],
         },
         {
-          title: "More",
+          title: "There's more to learn",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "C Programming and OOP with Dr. Chuck",
+              href: "https://youtu.be/PaPN51Mm5qQ",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Brian Kernighan with Lex Fridman",
+              href: "https://www.youtube.com/watch?v=O9upVbGSBFo",
+            },
+            {
+              label: "Pointers in C / C++",
+              href: "https://youtu.be/zuegQmMdy8M",
+            },
+            {
+              label: "Preprocessing in-depth",
+              href: "https://youtu.be/6KNdGnUiRBM",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} C Lang Documentation. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
