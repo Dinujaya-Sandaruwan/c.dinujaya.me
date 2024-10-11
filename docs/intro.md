@@ -85,5 +85,3 @@ Did you know that the tradition of using "Hello, World!" for the first program d
 ### Final Words
 
 You just wrote and ran your first C program! Although this was a simple exercise, it’s the foundation of everything you’ll build next. Keep experimenting, and don't be afraid to dive deeper into how things work. In the next article, we’ll explore more exciting stuff.
-
-Until then, happy coding!
