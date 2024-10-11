@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 slug: /printf-function-in-c
-title: "printf Function"
+title: "Printf Function"
 ---
 
 # The printf Function in C: Bringing Text to Life Inside Terminal
