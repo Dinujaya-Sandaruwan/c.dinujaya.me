@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "C Documentation",
-  tagline: "Dinosaurs are cool",
+  tagline: "Your Complete Guide to C Programming – From Basics to Mastery!",
   favicon: "img/logo.png",
 
   url: "https://c.dinujaya.me",
